@@ -2,7 +2,7 @@
 Bootstrap Colors Extended adds several new colors to your already existing bootstrap website!
 ![alt text](https://github.com/robert1233/BootstrapColorsExtended/blob/master/readmeAssets/colors.JPG)
   
-# Demo:
+# Demo + examples:
 https://bootstrap-colors-extended.herokuapp.com/
 
 # How to use:
