@@ -1,5 +1,6 @@
 # BootstrapColorsExtended
 Sometimes you want more color in your bootstrap website, but you can't be bothered to download or create your own theme from scratch. Well, here are several easy to implement colors, complete with hover and active states! These colors are meant to supplement the built-in colors that bootstrap has by default (such as -success or -danger). If you have any suggestions on colors you would like to see added, why not leave a comment?
+
 ![alt text](https://github.com/robert1233/BootstrapColorsExtended/blob/master/readmeAssets/colors.JPG)
   
 # Demo + examples:
