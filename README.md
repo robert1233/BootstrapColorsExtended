@@ -18,7 +18,7 @@ teal
 orange  
 pink  
 maroon  
-navy 
+navy  
 yellow  
 lime  
 gray  
