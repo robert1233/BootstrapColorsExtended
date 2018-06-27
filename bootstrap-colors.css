@@ -4,6 +4,10 @@
 /* Bootstrap: https://getbootstrap.com/ */
 
 :root {
+/***Colors***/
+/*Light*/
+	--light: #f8f9fa
+	
 /*White*/
 	--white: #ffffff;
 	
@@ -69,6 +73,18 @@
 	--vermillion: #e34234;
 	--vermillion-light: #f6c1bc;
 	--vermillion-dark: #b42518;
+	
+/*Steel*/
+	--steel: #878f99;
+	--steel-light: #a2b9bc;
+	--steel-dark: #6b5b95;
+
+/*Green*/
+	--green: #006600;
+	--green-light: #66ff66;
+	--green-dark: #003300;
+	
+/************/
 }
 
 /* indigo CSS */
@@ -1652,5 +1668,269 @@ color: var(--teal-dark);
   color: var(--white);
   background-color: var(--vermillion);
   border-color: var(--vermillion-dark);
+}
+/********************************************/
+
+/* steel CSS */
+.bg-steel {
+    background-color: var(--steel);
+}
+.text-steel {
+    color: var(--steel);
+}
+.border-steel {
+    border-color: var(--steel);
+}
+.bg-steel-light {
+    background-color: var(--steel-light);
+}
+.text-steel-light {
+    color: var(--steel-light);
+}
+.border-steel-light {
+    border-color: var(--steel-light);
+}
+.bg-steel-dark {
+    background-color: var(--steel-dark);
+}
+.text-steel-dark {
+    color: var(--steel-dark);
+}
+.border-steel-dark {
+    border-color: var(--steel-dark);
+}
+.btn-steel {
+	color: var(--white);
+    background-color: var(--steel);
+    border-color: var(--steel);
+}
+.btn-steel:hover {
+  color: var(--white);
+  background-color: var(--steel-dark);
+  border-color: var(--steel);
+}
+.btn-steel:focus, .btn-steel.focus {
+  box-shadow: 0 0 0 0.2rem var(--steel-light);
+}
+.btn-steel.disabled, .btn-steel:disabled {
+  color: var(--white);
+  background-color: var(--steel-light);
+  border-color: var(--steel-light);
+}
+.btn-steel:not(:disabled):not(.disabled):active, .btn-steel:not(:disabled):not(.disabled).active,
+.show > .btn-steel.dropdown-toggle {
+  color: var(--white);
+  background-color: var(--steel-dark);
+  border-color: var(--steel);
+}
+.btn-steel:not(:disabled):not(.disabled):active:focus, .btn-steel:not(:disabled):not(.disabled).active:focus,
+.show > .btn-steel.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem var(--steel-light);
+}
+.btn-outline-steel {
+	color: var(--steel);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--steel);
+}
+.btn-outline-steel:hover {
+  color: #fff;
+  background-color: var(--steel);
+  border-color: var(--steel);
+}
+.btn-outline-steel:focus, .btn-outline-steel.focus {
+  box-shadow: 0 0 0 0.2rem var(--steel-light);
+}
+.btn-outline-steel.disabled, .btn-outline-steel:disabled {
+  color: var(--steel-light);
+  background-color: transparent;
+}
+.btn-outline-steel:not(:disabled):not(.disabled):active, .btn-outline-steel:not(:disabled):not(.disabled).active,
+.show > .btn-outline-steel.dropdown-toggle {
+  color: #fff;
+  background-color: var(--steel);
+  border-color: var(--steel);
+}
+.btn-outline-steel:not(:disabled):not(.disabled):active:focus, .btn-outline-steel:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-steel.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem var(--steel-light);
+}
+.table-steel,
+.table-steel > th,
+.table-steel > td {
+  color: var(--steel-dark);
+  background-color: var(--steel-light);
+}
+.table-hover .table-steel:hover {
+  background-color: var(--steel);
+}
+.table-hover .table-steel:hover > td,
+.table-hover .table-steel:hover > th {
+  background-color: var(--steel);
+}
+.table .thead-steel th {
+  color: var(--white);
+  background-color: var(--steel-dark);
+  border-color: var(--steel);
+}
+.badge-steel {
+  color: var(--white);
+  background-color: var(--steel);
+}
+.alert-steel {
+  color: var(--steel-dark);
+  background-color: var(--steel-light);
+  border-color: var(--steel);
+}
+.alert-steel hr {
+  border-top-color: var(--steel-dark);
+}
+.alert-steel .alert-link {
+  color: var(--steel-dark);
+}
+.list-group-item-steel {
+  color: var(--steel);
+  background-color: var(--steel-light);
+}
+.list-group-item-steel.list-group-item-action:hover, .list-group-item-steel.list-group-item-action:focus {
+  color: var(--white);
+  background-color: var(--steel);
+}
+.list-group-item-steel.list-group-item-action.active {
+  color: var(--white);
+  background-color: var(--steel);
+  border-color: var(--steel-dark);
+}
+/********************************************/
+
+/* green CSS */
+.bg-green {
+    background-color: var(--green);
+}
+.text-green {
+    color: var(--green);
+}
+.border-green {
+    border-color: var(--green);
+}
+.bg-green-light {
+    background-color: var(--green-light);
+}
+.text-green-light {
+    color: var(--green-light);
+}
+.border-green-light {
+    border-color: var(--green-light);
+}
+.bg-green-dark {
+    background-color: var(--green-dark);
+}
+.text-green-dark {
+    color: var(--green-dark);
+}
+.border-green-dark {
+    border-color: var(--green-dark);
+}
+.btn-green {
+	color: var(--white);
+    background-color: var(--green);
+    border-color: var(--green);
+}
+.btn-green:hover {
+  color: var(--white);
+  background-color: var(--green-dark);
+  border-color: var(--green);
+}
+.btn-green:focus, .btn-green.focus {
+  box-shadow: 0 0 0 0.2rem var(--green-light);
+}
+.btn-green.disabled, .btn-green:disabled {
+  color: var(--white);
+  background-color: var(--green-light);
+  border-color: var(--green-light);
+}
+.btn-green:not(:disabled):not(.disabled):active, .btn-green:not(:disabled):not(.disabled).active,
+.show > .btn-green.dropdown-toggle {
+  color: var(--white);
+  background-color: var(--green-dark);
+  border-color: var(--green);
+}
+.btn-green:not(:disabled):not(.disabled):active:focus, .btn-green:not(:disabled):not(.disabled).active:focus,
+.show > .btn-green.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem var(--green-light);
+}
+.btn-outline-green {
+	color: var(--green);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--green);
+}
+.btn-outline-green:hover {
+  color: #fff;
+  background-color: var(--green);
+  border-color: var(--green);
+}
+.btn-outline-green:focus, .btn-outline-green.focus {
+  box-shadow: 0 0 0 0.2rem var(--green-light);
+}
+.btn-outline-green.disabled, .btn-outline-green:disabled {
+  color: var(--green-light);
+  background-color: transparent;
+}
+.btn-outline-green:not(:disabled):not(.disabled):active, .btn-outline-green:not(:disabled):not(.disabled).active,
+.show > .btn-outline-green.dropdown-toggle {
+  color: #fff;
+  background-color: var(--green);
+  border-color: var(--green);
+}
+.btn-outline-green:not(:disabled):not(.disabled):active:focus, .btn-outline-green:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-green.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem var(--green-light);
+}
+.table-green,
+.table-green > th,
+.table-green > td {
+  color: var(--green-dark);
+  background-color: var(--green-light);
+}
+.table-hover .table-green:hover {
+  background-color: var(--green);
+}
+.table-hover .table-green:hover > td,
+.table-hover .table-green:hover > th {
+  background-color: var(--green);
+}
+.table .thead-green th {
+  color: var(--white);
+  background-color: var(--green-dark);
+  border-color: var(--green);
+}
+.badge-green {
+  color: var(--white);
+  background-color: var(--green);
+}
+.alert-green {
+  color: var(--green-dark);
+  background-color: var(--green-light);
+  border-color: var(--green);
+}
+.alert-green hr {
+  border-top-color: var(--green-dark);
+}
+.alert-green .alert-link {
+  color: var(--green-dark);
+}
+.list-group-item-green {
+  color: var(--green);
+  background-color: var(--green-light);
+}
+.list-group-item-green.list-group-item-action:hover, .list-group-item-green.list-group-item-action:focus {
+  color: var(--white);
+  background-color: var(--green);
+}
+.list-group-item-green.list-group-item-action.active {
+  color: var(--white);
+  background-color: var(--green);
+  border-color: var(--green-dark);
 }
 /********************************************/
