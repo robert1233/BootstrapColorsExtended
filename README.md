@@ -4,16 +4,16 @@ Sometimes you want more color in your bootstrap website, but you can't be bother
 ![alt text](https://github.com/robert1233/BootstrapColorsExtended/blob/master/readmeAssets/colors.JPG)
   
 # Demo + examples:
-Colors:
-https://bootstrap-colors-extended.herokuapp.com/BootstrapColors.html
-Themes:
+Colors:  
+https://bootstrap-colors-extended.herokuapp.com/BootstrapColors.html  
+Themes:  
 https://bootstrap-colors-extended.herokuapp.com/BootstrapThemes.html
 
 # How to use:
 **Method 1:** External CSS - Simply download the **bootstrap-colors.css** and/or **bootstrap-colors-themes.css** file into your project folder and link to it in your HTML file as you normally would.
 
 **Method 2:** CDN - Paste the following link(s) into your HTML page to directly get the CSS needed for Bootstrap Colors Extended.  
-```<link rel="stylesheet" href="https://bootstrap-colors-extended.herokuapp.com/bootstrap-colors.css" />```
+```<link rel="stylesheet" href="https://bootstrap-colors-extended.herokuapp.com/bootstrap-colors.css" />```  
 ```<link rel="stylesheet" href="https://bootstrap-colors-extended.herokuapp.com/bootstrap-colors-themes.css" />```
 
 All normal bootstrap colors are still usable as normal! The following colors are currently available with BootstrapColorsExtended:
@@ -35,7 +35,7 @@ green
 
 The above colors also have -light and -dark versions for **text color, background color, and border color**!
 
-The following **themes** are now added!
+The following **themes** are now added!  
 royal  
 shades  
 grass  
